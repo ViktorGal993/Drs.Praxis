@@ -166,7 +166,35 @@
 }
 
 
-footer{
-    min-height: 400px;
+.footer{
+    
+    background-color: #0096e3;
+    color:#ffffff;
+    .footer_info{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin:30px auto;
+        font-weight: 700;
+        padding:0px 20 px;            
+        font-size: 18px;
+        
+        .footer_kontakt{ 
+            margin: 0 auto;                     
+            h3{
+                font-size: 30px;
+                margin-bottom: 10px;        
+            }
+            a:hover{
+                color:#2c2d4d;
+            }
+        }
+        .workTime{
+            h3{
+                font-size: 30px;
+                margin-bottom: 25px;
+            }
+        }
+       
+    }
     
 }
