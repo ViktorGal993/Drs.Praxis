@@ -1,6 +1,32 @@
+header{
+    padding-right: 40px;
+    background-color:rgb(242, 243, 247) ;
+}
+
 .kontent {
     min-height: 450px;
-    background: linear-gradient(rgba(242, 243, 247, 0.5),rgba(0,0,0,0.4)),
-    url("../img/bacround3.jpg") center/contain no-repeat;
+    background: url("../img/bacround7.png") right/contain no-repeat;
+}
+.box_info{
+     background: linear-gradient(rgba(242, 243, 247, 0.85));
+    max-width: 55%;
     
+    box-shadow: 0 6px 10px rgba(0,0,0,0.7);
+    border-radius: 15px;
+    padding:30px;
+    h3 {
+        color: #0096e3;
+        font-size: 28px;                  
+        font-weight: 800;
+    }
+    p {
+        margin:10px;
+        font-size: 20px;
+        color:#5b5c5e;
+        span {
+            color: #0096e3;
+            font-weight: 600;
+        }
+        
+    }
 }

@@ -124,8 +124,7 @@
                 font-size: 18px;
                 color:#535457;
             }
-        }
-        
+        }        
     }
     .Heder_title_bootom{
         color:#2c2d4d;
@@ -135,9 +134,8 @@
         font-weight: 900;
     }
 }
-/*Section4*/
-.kunde_info{
-    
+/*Section4 */
+.kunde_info{    
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap:20px;
