@@ -267,3 +267,19 @@
         }
     }
 }
+@media(max-width:430px){
+    .nav_weaper{    
+        .nav_logo {
+            h2 {
+                font-weight: 900;
+                font-size: 35px;       
+            }
+        }
+    }
+    #footer_social{
+        display: block;
+    }
+   #nav_social{
+    display: none;
+   }
+}

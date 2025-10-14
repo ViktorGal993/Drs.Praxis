@@ -50,7 +50,9 @@ button{
         display: none;
        
     }
-    .nav_social {
+    
+}
+.nav_social {
         display: flex;           
         .social_rund {
             width: 60px;   
@@ -60,13 +62,13 @@ button{
             align-items: center;            
             border-radius: 50%;
             box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
-            margin:0 15px;            
+            margin-right: 15px;
+            background-color:rgb(242, 243, 247) ;            
             img {
                 max-width: 42px;
             }
         }
     }  
-}
 /*Section 2*/
 .header_logo{
     display: flex;
@@ -205,6 +207,15 @@ button{
         }
         .workTime{
             margin-bottom: 20px;
+            h3{
+                font-size: 30px;
+                margin-bottom: 25px;
+            }
+        }
+
+        .footer_social{
+            display: none;
+            margin-bottom:20px;
             h3{
                 font-size: 30px;
                 margin-bottom: 25px;
