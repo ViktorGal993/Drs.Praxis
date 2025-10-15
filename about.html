@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/css/resposive.css">
 </head>
 <body>
     <nav>
@@ -17,30 +18,42 @@
             <div class="nav_weaper">
                 <div class="nav_logo animation">
                     <h2><a href="index.html">Drs.Staus</a></h2>
-                </div>
-
+                </div>            
+                                  
                 <div class="nav_menu">
                     <div class="nav_list">
-                    <ol>
-                        <li class="animation menu"><a href="index.html">Home</a></li>
-                        <li class="animation menu"><a href="about.html">Über uns</a></li>
-                        <li class="animation menu">Termin</li>
-                        <li class="animation menu"><a href="tel:+490000000000">+49-000-00-00</a></li>
-                    </ol>
-                </div>
+                        <ol>
+                            <li class="animation menu"><a href="index.html">Home</a></li>
+                            <li class="animation menu"><a href="about.html">Über uns</a></li>
+                            <li class="animation menu">Termin</li>
+                            <li class="animation menu"><a href="tel:+490000000000">+49-000-00-00</a></li>
+                        </ol>
+                    </div>
 
-                <div class="nav_social">
-                    <div class="social_rund animation">
-                        <a href="https://www.facebook.com/"><img src="src/img/icons/facebook.png" alt=""></a>
+                    <div id="nav_social" class="nav_social">
+                        <div class="social_rund animation">
+                            <a href="https://www.facebook.com/"><img src="src/img/icons/facebook.png" alt=""></a>
                         
-                    </div>
-                    <div class="social_rund animation">
-                       <a href="https://x.com/"><img src="src/img/icons/twitter.png" alt=""></a> 
-                    </div>
-                    <div class="social_rund animation">
-                        <a href="https://www.instagram.com/"><img src="src/img/icons/instagram.png" alt=""></a>
+                        </div>
+                        <div class="social_rund animation">
+                            <a href="https://x.com/"><img src="src/img/icons/twitter.png" alt=""></a> 
+                        </div>
+                        <div class="social_rund animation">
+                            <a href="https://www.instagram.com/"><img src="src/img/icons/instagram.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
+                <button id="menu_btn" class="menu_btn animation" >
+                    <img src="src/img/icons/menu.png" alt="">
+                </button>
+
+                <ol id="menu_mobil" class="menu_list" style="display: none;">
+                    <li class="animation menu"><a href="index.html">Home</a></li>
+                    <li class="animation menu"><a href="about.html">Über uns</a></li>
+                    <li class="animation menu">Termin</li>
+                    <li class="animation menu"><a href="tel:+490000000000">Anruf</a></li>
+                </ol>
+                
             </div>            
         </div>    
     </nav>
@@ -54,13 +67,8 @@
                 Wir arbeiten mit modernen Geräten und aktuellen medizinischen Standards, um Ihnen eine sichere und effektive Behandlung zu ermöglichen. Gleichzeitig ist uns der persönliche Kontakt besonders wichtig: Ihre Fragen, Sorgen und Wünsche stehen bei uns im Mittelpunkt. <br> 
                 <span>Gesundheit ist Vertrauenssache – und wir freuen uns, Sie auf Ihrem Weg zu begleiten.</span>
                 </p> 
-
-            </div>
-
-            
+            </div> 
         </div>
-
-
     </header>
 
      <footer class="footer weaper">        
@@ -77,18 +85,31 @@
             <div class="footer_kontakt">
                 <h3>Kontakt</h3>
                 <p class="animation">Praxis Drs.Staus <br>Max-Musteman Straße 100 <br>94032 Passau</p><br>
-                <a href="tel:+490000000000">Telefonnummer: +49-000-00-00</a><br>
-                <a href="mailto:example@mail.com">Email: example@mail.com</a>
+                <a  href="tel:+490000000000">Telefonnummer: +49-000-00-00</a><br>
+                <a  href="mailto:example@mail.com">Email: example@mail.com</a>
             </div>
 
-             
+            <div id="footer_social" class="footer_social" >
+                <h3>Sozial Media</h3>
 
-            <iframe class="animation" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42235.45411951042!2d13.367166505572651!3d48.576990239016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4774587943a0a065%3A0x41d25a40937af30!2sPassau!5e0!3m2!1sde!2sde!4v1758867393346!5m2!1sde!2sde" width="400" height="200" style="border:0; border-radius: 15px;box-shadow: 0 6px 10px rgba(0,0,0,0.7);margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div  class="nav_social">
+                       <div class="social_rund animation">
+                            <a href="https://www.facebook.com/"><img src="src/img/icons/facebook.png" alt=""></a>
+                        
+                        </div>
+                        <div class="social_rund animation">
+                            <a href="https://x.com/"><img src="src/img/icons/twitter.png" alt=""></a> 
+                        </div>
+                        <div class="social_rund animation">
+                            <a href="https://www.instagram.com/"><img src="src/img/icons/instagram.png" alt=""></a>
+                        </div>
+                </div>
+            </div>
 
-            
-          
+            <iframe class="animation map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42235.45411951042!2d13.367166505572651!3d48.576990239016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4774587943a0a065%3A0x41d25a40937af30!2sPassau!5e0!3m2!1sde!2sde!4v1758867393346!5m2!1sde!2sde" width="400" height="200" style="border:0; border-radius: 15px;box-shadow: 0 6px 10px rgba(0,0,0,0.7);margin: 0px auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </div>
-     </footer> 
+     </footer>
     <script src="src/js/main.js"></script>
     
 </body>

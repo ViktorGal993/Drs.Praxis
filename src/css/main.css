@@ -68,7 +68,10 @@ button{
                 max-width: 42px;
             }
         }
-    }  
+    } 
+    #menu_mobil{
+        margin:0 30px;
+    } 
 /*Section 2*/
 .header_logo{
     display: flex;

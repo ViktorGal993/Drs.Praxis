@@ -218,6 +218,7 @@
 @media(max-width:670px){
     .kunde_info{ 
         display: flex;
+        justify-content: center;
         .kun_info_img{
             display: none;
         }
@@ -225,8 +226,7 @@
 }
 @media(max-width:580px){
     .weaper{
-        padding:25px 50px;
-        
+        padding:25px 50px;        
     }
     .nav_weaper{
         .nav_logo {
@@ -275,11 +275,48 @@
                 font-size: 35px;       
             }
         }
-    }
+    }  
     #footer_social{
         display: block;
     }
    #nav_social{
     display: none;
    }
+}
+
+/*Anpasung von der Seite "über Und (about)*/
+@media(max-width:1440px){
+    header{
+        padding-right:0;
+    }
+   .kontent {
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+    .box_info{
+        max-width: 90%;
+    }
+}
+@media(max-width:860px){
+    .box_info{
+        h3 {
+            font-size: 25px;                    
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+}
+@media(max-width:580px){
+    .box_info{
+        max-width: 100%;
+        padding:20px;
+        h3 {
+            font-size: 22px;                   
+        }
+        p {
+            margin:10px 0;
+        }
+    }
 }
