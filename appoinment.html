@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Über uns</title>
+    <title>Termin</title>
 
      <link rel="stylesheet" href="src/css/main.css">
      <link rel="stylesheet" href="src/css/about.css">
@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="src/css/resposive.css">
+<link rel="stylesheet" href="src/css/appoinment.css">
 </head>
 <body>
     <nav>
@@ -25,7 +26,7 @@
                         <ol>
                             <li class="animation menu"><a href="index.html">Home</a></li>
                             <li class="animation menu"><a href="about.html">Über uns</a></li>
-                            <li class="animation menu"><a href="appoinment.html">Termin</a></li>
+                            <li class="animation menu">Termin</li>
                             <li class="animation menu"><a href="tel:+490000000000">+49-000-00-00</a></li>
                         </ol>
                     </div>
@@ -50,7 +51,7 @@
                 <ol id="menu_mobil" class="menu_list" style="display: none;">
                     <li class="animation menu"><a href="index.html">Home</a></li>
                     <li class="animation menu"><a href="about.html">Über uns</a></li>
-                    <li class="animation menu">Termin</li>
+                    <li class="animation menu"><a href="appoinment.html">Termin</a></li>
                     <li class="animation menu"><a href="tel:+490000000000">Anruf</a></li>
                 </ol>
                 
@@ -59,15 +60,40 @@
     </nav>
 
     <header>
-        <div class="kontent weaper">
-            <div class="box_info animation"> 
-                <h3>Willkommen in unserer Arztpraxis – Ihrem vertrauensvollen Partner für Gesundheit und Wohlbefinden.</h3>
-                <p>Unsere Praxis steht für moderne Medizin, persönliche Betreuung und ein offenes Ohr für Ihre Anliegen. Wir verbinden fachliche Kompetenz mit menschlicher Nähe, um Ihnen eine medizinische Versorgung auf höchstem Niveau zu bieten. Dabei legen wir großen Wert auf eine angenehme Atmosphäre, in der Sie sich gut aufgehoben fühlen. <br>
-                Unser Team besteht aus erfahrenen Ärztinnen und Ärzten sowie engagierten medizinischen Fachangestellten, die sich mit Herz und Verstand um Ihre Gesundheit kümmern. Ob Vorsorge, Diagnostik oder Therapie – wir nehmen uns Zeit für Sie und beraten Sie individuell und verständlich. <br>
-                Wir arbeiten mit modernen Geräten und aktuellen medizinischen Standards, um Ihnen eine sichere und effektive Behandlung zu ermöglichen. Gleichzeitig ist uns der persönliche Kontakt besonders wichtig: Ihre Fragen, Sorgen und Wünsche stehen bei uns im Mittelpunkt. <br> 
-                <span>Gesundheit ist Vertrauenssache – und wir freuen uns, Sie auf Ihrem Weg zu begleiten.</span>
-                </p> 
-            </div> 
+        <div class="weaper">
+            <section class="apointment">
+                <div class="frame">
+                    <h2>Termin Vereinbarung</h2>
+                
+                <form class="frame" action="submit-booking" method="POST">
+                    <div class="frame_blocks">
+                        <label for="name">Ihre Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="frame_blocks">
+                        <label for="email">Ihre Email:</label><br>
+                        <input type="text" id="email" name="email" required>   
+                    </div>
+                    
+                    <div class="frame_blocks">
+                        <label for="date">Wählen Sie Datum:</label><br>
+                        <input type="text" id="date" name="date" required>
+                    </div>
+                    
+                    <div class="frame_blocks">
+                        <label for="time">Wählen Sie Zeit:</label><br>
+                        <input type="text" name="time" id="time" required>
+                    </div>
+                    
+
+                </form>
+
+                </div>
+                
+            </section>
+
+
         </div>
     </header>
 

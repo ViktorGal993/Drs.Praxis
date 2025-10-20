@@ -1,0 +1,11 @@
+.apointment{
+     background: url("../img/BackroundAppoint2.png") center/contain no-repeat;   
+}
+section{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
