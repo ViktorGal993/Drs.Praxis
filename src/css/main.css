@@ -5,6 +5,7 @@
     list-style: none;
     font-family: "Montserrat", sans-serif;
     color:inherit;
+    
 }
 button{
     all:unset;
@@ -19,13 +20,26 @@ button{
     padding:25px 100px;
     background-color: rgb(242, 243, 247);
 }
+.btn{
+    text-align: center;
+    width: 20%;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.7);
+    border-radius: 15px;
+    min-height: 30px;
+    padding: 10px;
+    margin:10px;
+    color:#ffffff;
+    background-color:#0096e3 ;
+    font-weight: 700;
+
+}
 .nav_weaper{    
     display: flex;  
     justify-content:space-around;
     align-items: center;
     color:#0096e3;
     .nav_logo {
-            h2 {
+        h2 {                
             font-weight: 900;
             font-size: 42px;       
         }
@@ -227,5 +241,3 @@ button{
     }
     
 }
-
-/*die Seite "Appoinment*/

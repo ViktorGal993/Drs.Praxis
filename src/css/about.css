@@ -8,7 +8,7 @@ header{
     background: url("../img/bacround7.png") right/contain no-repeat;
 }
 .box_info{
-     background: linear-gradient(rgba(242, 243, 247, 0.85));
+        background: linear-gradient(rgba(242, 243, 247, 0.85));
         max-width: 55%;
         box-shadow: 0 6px 10px rgba(0,0,0,0.7);
         border-radius: 15px;

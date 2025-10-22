@@ -50,12 +50,3 @@ const menu_list=document.querySelector(".menu_list");
             menu_btnA.style.display = "block";
         },2500 );
     });
-
-
-
-   
-
-   
-
-
-
